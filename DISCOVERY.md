@@ -28,6 +28,15 @@ SECTION: Anything unverified
   confirmed with anyone who owns it.
 
 DECISION: How should this run proceed given no ticket was attached? | Supply a specific ticket or backlog item for Discovery to investigate (recommended) | Treat "catch the fork up to upstream" itself as the ticket and let Discovery scope that sync | Close this run with no further action
+
+SECTION: Recommended tier
+  This run has no scoped work: no ticket, no divergence from upstream to fix, nothing to
+  build. "Very Small" is recommended because that matches the actual size of what
+  happened here (one investigation, one blocker report) and because nothing is known yet
+  that would justify a bigger tier. If a real ticket is attached next, the tier should be
+  reconsidered against that ticket's own scope rather than inherited from this run.
+
+DECISION: What tier should this ticket run at? | Very Small (recommended) | Lite | Normal
 -->
 
 # Discovery: bigtuff8/happy — run 2ad79503, attempt 1
